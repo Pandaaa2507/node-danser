@@ -1,0 +1,18 @@
+{
+  "name": "node-danser",
+  "version": "1.0.0",
+  "description": "A simple and easy to use wrapper arround Wieku/danser-go",
+  "main": "main.js",
+  "scripts": {
+    "postinstall": "node install.js",
+    "test": "node main.js"
+  },
+  "author": "Pandaaa",
+  "license": "ISC",
+  "dependencies": {
+    "extract-zip": "^2.0.1",
+    "miniget": "^4.2.1",
+    "ora": "^6.0.1",
+    "unzipper": "^0.10.11"
+  }
+}
